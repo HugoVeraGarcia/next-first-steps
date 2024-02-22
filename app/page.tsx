@@ -5,7 +5,7 @@ export default function Home() {
     <main className="flex flex-col items-center p-24">
       <span className="text-5xl">Hola Mundo!!!</span>
       <Link href={"/about"}>
-        <span>About</span>
+        <span className="text-2xl">About</span>
       </Link>
     </main>
   );
